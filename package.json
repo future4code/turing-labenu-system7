@@ -1,19 +1,20 @@
 {
   "name": "turing-labenu-system7",
   "version": "1.0.0",
-  "description": "Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/future4code/turing-labenu-system7.git"
+    "start": "ts-node ./src/index.ts",
+    "estudante": "ts-node ./src/estudante.ts",
+    "professor": "ts-node ./src/professor.ts",
+    "turma": "ts-node ./src/turma.ts"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/future4code/turing-labenu-system7/issues"
-  },
-  "homepage": "https://github.com/future4code/turing-labenu-system7#readme"
+  "dependencies": {
+    "@types/node": "13.7.7",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
 }
