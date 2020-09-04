@@ -7,12 +7,13 @@
     "start": "ts-node ./src/index.ts",
     "estudante": "ts-node ./src/estudante.ts",
     "professor": "ts-node ./src/professor.ts",
-    "turma": "ts-node ./src/turma.ts"
+    "turma": "ts-node ./src/turma.ts",
+    "gerenciador": "ts-node ./src/gerenciador.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^13.7.7",
+    "@types/node": "13.7.7",
     "moment": "^2.27.0",
     "ts-node": "^8.6.2",
     "ts-node-dev": "^1.0.0-pre.44",

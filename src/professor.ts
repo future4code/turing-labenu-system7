@@ -27,3 +27,4 @@ const newProfessor: Professor = new Professor(
 );
 
 console.log(newProfessor);
+
