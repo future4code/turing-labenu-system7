@@ -1,4 +1,6 @@
 import { Professor, TEACHER_SPECIALTY } from './Professor';
+import {FileManager} from "./FileManager";
+import { Estudantes, estudantedebiologia } from "./estudante";
 
 const newProfessor: Professor = new Professor(
   '1',
@@ -8,3 +10,7 @@ const newProfessor: Professor = new Professor(
 );
 
 console.log(newProfessor);
+
+const fileManager: FileManager= new FileManager ('estudante.json');
+fileManager.writeInJson(estudantedebiologia);
+
